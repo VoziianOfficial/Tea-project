@@ -58,6 +58,14 @@ body {
   /* font-family: "Cormorant", serif; */
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Cormorant", serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
 .header-inner {
   min-width: 140px;
   display: flex;
@@ -204,6 +212,9 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .title {
+    margin-bottom: 30px;
+  }
   .user-actions-item-search {
     margin-left: 30px;
   }
@@ -316,6 +327,11 @@ body {
   .blockquote-text {
     max-width: 640px;
   }
+
+  .assortment__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 680px) {
@@ -353,9 +369,15 @@ body {
   .menu-list {
     width: 360px;
   }
+  .assortment {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 360px) {
+  title {
+    margin-bottom: 10px;
+  }
   .logo {
     margin-right: 50px;
   }
@@ -385,6 +407,14 @@ body {
   .blockquote-text {
     max-width: 340px;
     margin-top: 70px;
+    margin-bottom: 80px;
+  }
+
+  .assortment__img {
+    max-width: 170px;
+  }
+
+  .assortment {
     margin-bottom: 80px;
   }
 }
